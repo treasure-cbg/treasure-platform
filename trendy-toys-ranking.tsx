@@ -12,16 +12,19 @@ import { ProfileCenter } from "./components/profile-center"
 import { Discover } from "./components/discover"
 import { SearchPage } from "./components/search-page"
 import { RankingsPage } from "./components/rankings-page"
-import { UserDistributionMap } from "./components/user-distribution-map"
+import { DetailedUserMap } from "./components/detailed-user-map"
 import { LanguageProvider } from "./hooks/use-language"
-import { Card, CardContent } from "../components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import { TrendingUp, Award, Globe, Crown, Users, ArrowRight, MapPin } from "lucide-react"
-import { Button } from "../components/ui/button"
-import { Badge } from "../components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge"
 import { NavigationPage } from "./components/navigation-page"
 import { AuthPage } from "./components/auth-page"
 import { HelpCenter } from "./components/help-center"
 import { DeveloperAPI } from "./components/developer-api"
+import { SettingsPage } from "./components/settings-page"
+import { NotificationCenter } from "./components/notification-center"
+import { FavoritesPage } from "./components/favorites-page"
 
 const mockToys = [
   {
@@ -139,6 +142,12 @@ function TreasureChamberContent() {
         return <HelpCenter />
       case "api":
         return <DeveloperAPI />
+      case "settings":
+        return <SettingsPage />
+      case "notifications":
+        return <NotificationCenter />
+      case "favorites":
+        return <FavoritesPage />
       default:
         return (
           <main className="container mx-auto px-4 py-8">
@@ -205,7 +214,7 @@ function TreasureChamberContent() {
 
             {/* Global User Distribution Map */}
             <div className="mb-16">
-              <UserDistributionMap />
+              <DetailedUserMap />
             </div>
 
             {/* Top Rankings Section */}

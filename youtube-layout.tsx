@@ -1,11 +1,11 @@
 "use client"
 
-import { SidebarProvider, SidebarInset } from "../components/ui/sidebar"
+import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar"
 import { AppSidebar } from "./components/app-sidebar"
 import { TopNav } from "./components/top-nav"
 import { ThreeDContent } from "./components/three-d-content"
-import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
-import { Badge } from "../components/ui/badge"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
 import { Play, Eye, Clock } from "lucide-react"
 
 export default function YouTubeLayout() {
