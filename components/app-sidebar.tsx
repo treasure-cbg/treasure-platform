@@ -29,7 +29,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarSeparator,
-} from "@/components/ui/sidebar"
+} from "../components/ui/sidebar"
 
 const mainNavItems = [
   { title: "Home", icon: Home, url: "#" },

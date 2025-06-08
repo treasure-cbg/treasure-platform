@@ -1,10 +1,10 @@
 "use client"
 
 import { Search, Mic, Video, Bell } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { SidebarTrigger } from "@/components/ui/sidebar"
+import { Button } from "../components/ui/button"
+import { Input } from "../components/ui/input"
+import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar"
+import { SidebarTrigger } from "../components/ui/sidebar"
 
 export function TopNav() {
   return (
