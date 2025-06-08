@@ -2,12 +2,12 @@
 
 import { useState } from "react"
 import { Briefcase, Star, Upload, Users, TrendingUp, CheckCircle2, Clock, BarChart3 } from "lucide-react"
-import { Card, CardContent } from "../components/ui/card"
-import { Button } from "../components/ui/button"
-import { Badge } from "../components/ui/badge"
-import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs"
-import { Progress } from "../components/ui/progress"
+import { Card, CardContent } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Progress } from "@/components/ui/progress"
 
 export function BusinessPortal() {
   const [isVerified, setIsVerified] = useState(true)

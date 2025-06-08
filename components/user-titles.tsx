@@ -3,10 +3,10 @@
 import type React from "react"
 
 import { Star, Trophy, Crown, Award, Lock, CheckCircle2 } from "lucide-react"
-import { Card, CardContent } from "../components/ui/card"
-import { Badge } from "../components/ui/badge"
-import { Button } from "../components/ui/button"
-import { Progress } from "../components/ui/progress"
+import { Card, CardContent } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Progress } from "@/components/ui/progress"
 
 interface TitleCardProps {
   title: string

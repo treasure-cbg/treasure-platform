@@ -2,13 +2,13 @@
 
 import { useState } from "react"
 import { Check, Star } from "lucide-react"
-import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
-import { Button } from "../components/ui/button"
-import { Checkbox } from "../components/ui/checkbox"
-import { Label } from "../components/ui/label"
-import { RadioGroup, RadioGroupItem } from "../components/ui/radio-group"
-import { Slider } from "../components/ui/slider"
-import { Badge } from "../components/ui/badge"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Checkbox } from "@/components/ui/checkbox"
+import { Label } from "@/components/ui/label"
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
+import { Slider } from "@/components/ui/slider"
+import { Badge } from "@/components/ui/badge"
 
 interface SearchFiltersProps {
   filters: {

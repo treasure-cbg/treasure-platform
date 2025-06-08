@@ -2,12 +2,12 @@
 
 import { useState } from "react"
 import { Plus, Heart, MessageCircle, Share, Trophy, Search } from "lucide-react"
-import { Card, CardContent } from "../components/ui/card"
-import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar"
-import { Button } from "../components/ui/button"
-import { Badge } from "../components/ui/badge"
-import { Textarea } from "../components/ui/textarea"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "../components/ui/dialog"
+import { Card, CardContent } from "@/components/ui/card"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge"
+import { Textarea } from "@/components/ui/textarea"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 
 const posts = [
   {
